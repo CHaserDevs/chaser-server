@@ -30,7 +30,7 @@ jobs:
           cd src
           mkdir build
           cd build
-          qmake ../YourProject.pro
+          qmake ../AsahikawaProcon-Server.pro
           make
 
       - name: Create zip
@@ -60,7 +60,7 @@ jobs:
           cd src
           mkdir build
           cd build
-          qmake ..\YourProject.pro  # Windows用のプロジェクトファイル名を指定
+          qmake ..\AsahikawaProcon-Server.pro
           mingw32-make  # Windows用のmakeコマンド
 
       - name: Create zip
